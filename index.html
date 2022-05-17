@@ -25,3 +25,12 @@
 <h3 align="center">知乎</h3>
 <h2 align="center">✨鸣谢名单✨</h2>
 <h3 align="center">🥇沈赟博</h3>
+    <meta charset="utf-8">
+   
+        <input type="button" id="praise" value="一个无聊的按钮(你按了0下)">
+<script type="text/javascript">
+    var number=0;
+    document.getElementById('praise').onclick=function(){
+        this.value="一个无聊的按钮(你按了"+(++number)+"下)";
+    }
+</script>
