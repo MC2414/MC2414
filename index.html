@@ -1,37 +1,35 @@
-<!doctype html>
-<html>
-	
-<head>
-<title>MC2414个人网页</title>
-</head>
-<body>
-</body>
-</html>
-<style>
-        @font-face {
-            font-family:测试字体;
-            src: url("MiSans-Regular.ttf");
-        }
+<!DOCTYPE html>
 
-        body {
-            font-family:测试字体;
-        }
-    </style>
-<h1 align="center">我是MC2414，这是我的个人网页</h1>
-<h2 align="center">我很高兴你能来到这里，你可以在下面的网站找到我</h2>
-<a align="center"href="https://space.bilibili.com/650926638?spm_id_from=333.1007.0.0" target="_blank"><p align="center"><img src="https://s2.loli.net/2022/05/12/1mTfgjwPGBbRkI5.png" ></a>
-<h3 align="center">B站</h3>
-<a align="center"href="https://www.zhihu.com/" target="_blank"><p align="center"><img src="https://s2.loli.net/2022/05/13/lcvPaLzSTWIm1J2.png" ></a>
-<h3 align="center">知乎</h3>
-<h2 align="center">✨鸣谢名单✨</h2>
-<h3 align="center">🥇沈赟博</h3>
-    <meta charset="utf-8">
-   
-        <input type="button" id="praise" value="一个无聊的按钮(你按了0下)">
-<script type="text/javascript">
-    var number=0;
-    document.getElementById('praise').onclick=function(){
-        this.value="一个无聊的按钮(你按了"+(++number)+"下)";
-    }
-</script>
-<iframe src="//player.bilibili.com/player.html?aid=938480208&bvid=BV1GT4y1r79A&cid=584779213&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MC2414个人网页</title>
+        <style>
+            @font-face {
+                font-family:测试字体;
+                src: url("file:///D|/qq/2908769164/filerecv/MiSans-Regular.ttf");
+            }
+            body {
+                font-family:测试字体;
+            }
+            .center {
+                text-align: center;
+            }
+        </style>
+        <script>
+            var count = 0;
+            function click(id) {
+                count = count + 1;
+                document.getElementById(id).innerHTML = "一个无聊的按钮(你按了" + count + "下)";
+            }
+        </script>
+    </head>
+    <body>
+        <h1 class="center">我是MC2414，这是我的个人网页</h1>
+        <h2 class="center">我很高兴你能来到这里，你可以在下面的网站找到我</h2>
+        <div class="center">
+            <a href="https://space.bilibili.com/650926638" target="_blank"><img src="https://s2.loli.net/2022/05/12/1mTfgjwPGBbRkI5.png" /></a><br />
+            B站
+        </div>
+    </body>
+</html>
